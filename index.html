@@ -112,6 +112,9 @@
 		.close:hover {
 			color: #ccc;
 		}
+		html {
+			scroll-behavior: smooth;
+		}
 	</style>
 </head>
 <body>
@@ -153,6 +156,43 @@
 				<h1>5de linie</h1>
 				<p>5de linie</p>
 			</div>
+			<div class="patch">
+				<img src="4th ENGR BN 67.png" alt="4th ENGR BN 67 Patch">
+				<h1>4th ENGR BN 67</h1>
+				<p>4th ENGR BN 67</p>
+			</div>
+
+			<div class="patch">
+				<img src="11th ENGR BN 1.webp" alt="11th ENGR BN 1 patch">
+				<h1>11th ENGR BN 1</h1>
+				<p>11th ENGR BN 1</p>
+			</div>
+			<div class="patch">
+				<img src="11th ENGR BN 6.webp" alt="11th ENGR BN 6 patch">
+				<h1>11th ENGR BN 6</h1>
+				<p>11th ENGR BN 6</p>
+			</div>
+			<div class="patch">
+				<img src="11th ENGR BN 11.webp" alt="11th ENGR BN 11 patch">
+				<h1>11th ENGR BN 11</h1>
+				<p>11th ENGR BN 11</p>
+			</div>
+			<div class="patch">
+				<img src="11th ENGR BN 68.webp" alt="11th ENGR BN 68 patch">
+				<h1>11th ENGR BN 68</h1>
+				<p>11th ENGR BN 68</p>
+			</div>
+			<div class="patch">
+				<img src="MPG.png" alt="MPG Patch">
+				<h1>Military Police Group</h1>
+				<p>Military Police Group</p>
+			</div>
+			<div class="patch">
+				<img src="MPG-alt.png" alt="MPG-alt Patch">
+				<h1>Military Police Group</h1>
+				<p>Military Police Group alternative patch in different colours</p>
+			</div>
+
 		</div>
 	</section>
 	<section id="navy">
@@ -204,14 +244,40 @@
 				<p>20th Squadron</p>
 			</div>
 			<div class="patch">
+				<img src="31 Tiger Squadron.webp" alt="31 Tiger Squadron Patch">
+				<h1>31 Tiger Squadron</h1>
+				<p>31 Tiger Squadron</p>
+			</div>
+			<div class="patch">
 				<img src="Operational Conversion Unit.webp" alt="Operational Conversion Unit Patch">
 				<h1>Operational Conversion Unit - OCU</h1>
 				<p>Closed since may 2026</p>
 			</div>
 			<div class="patch">
+				<img src="A330 Avico 21SQN.png" alt="A330 Avico 21SQN Patch">
+				<h1>A330 Avico 21SQN</h1>
+				<p>A330 Avico 21SQN</p>
+			</div>
+
+			<div class="patch">
 				<img src="A400 Atlas.webp" alt="A400 Atlas Patch">
 				<h1>A400 Atlas</h1>
 				<p>A400 Atlas</p>
+			</div>
+			<div class="patch">
+				<img src="A400M 15th wing.webp" alt="A400M 15th wing Patch">
+				<h1>A400M 15th wing</h1>
+				<p>A400M 15th wing</p>
+			</div>
+			<div class="patch">
+				<img src="A400 Atlas 20SQN.png" alt="A400 Atlas 20SQN Patch">
+				<h1>A400 Atlas 20SQN</h1>
+				<p>A400 Atlas 20SQN</p>
+			</div>
+			<div class="patch">
+				<img src="A400 Atlas 20SQN-alt.png" alt="A400 Atlas 20SQN-alt Patch">
+				<h1>A400 Atlas 20SQN</h1>
+				<p>A400 Atlas 20SQN with an alternative background design</p>
 			</div>
 			<div class="patch">
 				<img src="F-16 Fighting Falcon.webp" alt="F-16 Fighting Falcon Patch">
@@ -304,6 +370,19 @@
 				modal.style.display = "none";
 			}
 		}
+
+		// Smooth scrolling for navigation links
+		document.querySelectorAll('nav a[href^="#"]').forEach(function(navLink) {
+			navLink.addEventListener('click', function(event) {
+				event.preventDefault();
+				var targetId = this.getAttribute('href').slice(1);
+				var targetElement = document.getElementById(targetId);
+				if (targetElement) {
+					targetElement.scrollIntoView({ behavior: 'smooth' });
+					history.pushState(null, '', '#' + targetId);
+				}
+			});
+		});
 	</script>
 
 </body>
