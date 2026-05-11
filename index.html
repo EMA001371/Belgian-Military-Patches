@@ -22,6 +22,16 @@
 			padding: 1em;
 			text-align: center;
 		}
+		.search-container {
+			margin-bottom: 1em;
+		}
+		.search-container input {
+			padding: 0.5em;
+			width: 300px;
+			max-width: 80%;
+			border: none;
+			border-radius: 4px;
+		}
 		nav a {
 			color: white;
 			text-decoration: none;
@@ -123,6 +133,9 @@
 		<p>Inspired by specialized unit patches, showcasing military insignia from various branches.</p>
 	</header>
 	<nav>
+		<div class="search-container">
+			<input type="text" id="searchInput" placeholder="Search patches...">
+		</div>
 		<a href="#army">Army</a>
 		<a href="#navy">Navy</a>
 		<a href="#airforce">Air Force</a>
@@ -130,277 +143,22 @@
 	</nav>
 	<section id="army">
 		<h2>Army Patches</h2>
-		<div class="patch-grid">
-			<div class="patch">
-				<img src="KSOO - ERSO Instructor.webp" alt="KSOO - ERSO Instructor Patch">
-				<h1>KSOO - ERSO Instructor</h1>
-				<p>Instructor for the KSOO - ERSO program</p>
-			</div>
-			<div class="patch">
-				<img src="carabiniers grenadiers.webp" alt="carabiniers grenadiers Patch">
-				<h1>carabiniers grenadiers</h1>
-				<p>carabiniers grenadiers</p>
-			</div>
-			<div class="patch">
-				<img src="Dovo Sedee dark.webp" alt="Dovo Sedee dark patch">
-				<h1>Dovo Sedee dark version</h1>
-				<p>A dark variant of the Dovo Sedee patch</p>
-			</div>
-			<div class="patch">
-				<img src="Emergency Medical Technician.webp" alt="Emergency Medical Technician patch">
-				<h1>Emergency Medical Technician</h1>
-				<p>Belgian Defense</p>
-			</div>
-			<div class="patch">
-				<img src="5de linie.webp" alt="5de linie patch">
-				<h1>5de linie</h1>
-				<p>Bvr/5 Li</p>
-			</div>
-			<div class="patch">
-				<img src="4th ENGR BN 67.png" alt="4th ENGR BN 67 Patch">
-				<h1>4th ENGR BN 67</h1>
-				<p>Combat ENGR</p>
-			</div>
-			<div class="patch">
-				<img src="11th ENGR BN 1.webp" alt="11th ENGR BN 1 patch">
-				<h1>11th ENGR BN 1</h1>
-				<p>Via VI</p>
-			</div>
-			<div class="patch">
-				<img src="11th ENGR BN 6.webp" alt="11th ENGR BN 6 patch">
-				<h1>11th ENGR BN 6</h1>
-				<p>Age quod agis</p>
-			</div>
-			<div class="patch">
-				<img src="11th ENGR BN 11.webp" alt="11th ENGR BN 11 patch">
-				<h1>11th ENGR BN 11</h1>
-				<p>Per ignem,aquam at aerem</p>
-			</div>
-			<div class="patch">
-				<img src="11th ENGR BN 68.webp" alt="11th ENGR BN 68 patch">
-				<h1>11th ENGR BN 68</h1>
-				<p>Steeds paraat</p>
-			</div>
-			<div class="patch">
-				<img src="MP.webp" alt="MP patch">
-				<h1>Military police</h1>
-				<p>MP</p>
-			</div>
-			<div class="patch">
-				<img src="MPG.png" alt="MPG Patch">
-				<h1>Military Police Group</h1>
-				<p>MPG</p>
-			</div>
-			<div class="patch">
-				<img src="MPG-dark.png" alt="MPG-dark Patch">
-				<h1>Military Police Group dark version</h1>
-				<p>MPG alternative patch in dark colors</p>
-			</div>
+		<div class="patch-grid" id="army-grid">
 		</div>
 	</section>
 	<section id="navy">
 		<h2>Navy Patches</h2>
-		<div class="patch-grid">
-			<div class="patch">
-				<img src="Marine Accademy.webp" alt="Marine Accademy Patch">
-				<h1>Marine Accademy</h1>
-				<p>Directly from Flockydepoes's personal collection, earned from doing "some hard stuff like swimming and diving with clothes on and gun on back"</p>
-			</div>
-			<div class="patch">
-				<img src="Military police naval component.webp" alt="Military police naval component Patch">
-				<h1>Military police naval component</h1>
-				<p>Specialized unit for naval law enforcement</p>
-			</div>
-			<div class="patch">
-				<img src="MWU-VSW team.webp" alt="MWU-VSW team Patch">
-				<h1>MWU-VSW team</h1>
-				<p>Belgian Navy</p>
-			</div>
-			<div class="patch">
-				<img src="M921 ship patch.webp" alt="M921 ship patch">
-				<h1>BNS Lobelia M921</h1>
-				<p>Compos Sui</p>
-			</div>
-			<div class="patch">
-				<img src="louise_marie_patch.webp" alt="Louise-Marie ship patch">
-				<h1>F931 Louise-Marie</h1>
-				<p>Ad Augusta Per Angusta</p>
-			</div>
-			<div class="patch">
-				<img src="louis_marie_2.webp" alt="louise-Marie 2 ship patch">
-				<h1>F931 louise Marie</h1>
-				<p>Marine</p>
-			</div>
+		<div class="patch-grid" id="navy-grid">
 		</div>
 	</section>
 	<section id="airforce">
 		<h2>Air Force Patches</h2>
-		<div class="patch-grid">
-			<div class="patch">
-				<img src="Belgian Air Force.webp" alt="Belgian Air Force Patch">
-				<h1>Belgian Air Force</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="Air Force Police.jpg" alt="Air Force Police Patch">
-				<h1>Air Force Police</h1>
-				<p>Belgian Air Force Police</p>
-			</div>
-			<div class="patch">
-				<img src="Operational Conversion Unit.webp" alt="Operational Conversion Unit Patch">
-				<h1>Operational Conversion Unit</h1>
-				<p>Closed since may 2026</p>
-			</div>
-			<div class="patch">
-				<img src="airforce base guards.webp" alt="Air Force Base Guards Patch">
-				<h1>Air Force Base Guards</h1>
-				<p>10 W Tac - Force Protection</p>
-			</div>
-			<div class="patch">
-				<img src="10th tactical wing - Fire Department.webp" alt="10th tactical wing - Fire Department Patch">
-				<h1>10th tactical wing - Fire Department</h1>
-				<p>10 W tac kleine brogel - Fire department - 2023 Belgian airforce days</p>
-			</div>
-			<div class="patch">
-				<img src="10th tactical wing - Medical Care.webp" alt="10th tactical wing - Medical Care Patch">
-				<h1>10th tactical wing - Medical Care</h1>
-				<p>We'll stitch you up!</p>
-			</div>
-			<div class="patch">
-				<img src="15th Transport Wing - Squadron.webp" alt="15th Transport Wing - Squadron Patch">
-				<h1>15th Transport Wing - Squadron</h1>
-				<p>Maint SQN - Tenacity</p>
-			</div>
-			<div class="patch">
-				<img src="20th Squadron.webp" alt="20th Squadron Patch">
-				<h1>20th Squadron</h1>
-				<p>20 SQN - Tenacity</p>
-			</div>
-			<div class="patch">
-				<img src="Mirage V.webp" alt="Mirage V Patch">
-				<h1>Mirage V</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="Spitfire XIV.webp" alt="Spitfire XIV Patch">
-				<h1>Spitfire XIV</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="F-16 Fighting Falcon.webp" alt="F-16 Fighting Falcon Patch">
-				<h1>F-16 Fighting Falcon</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="Falcon DA-20.webp" alt="Falcon DA-20 Patch">
-				<h1>Falcon DA-20</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="31 Tiger Squadron.webp" alt="31 Tiger Squadron Patch">
-				<h1>31 Tiger Squadron</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="F-35A Lighting II.webp" alt="F-35A Lighting II Patch">
-				<h1>F-35A Lighting II</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="CF-100 Canuck Mk5.webp" alt="CF-100 Canuck Mk5 Patch">
-				<h1>CF-100 Canuck Mk5</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="F-104G Starfghter.webp" alt="F-104G Starfghter Patch">
-				<h1>F-104G Starfghter</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="A330 Avico 21SQN.png" alt="A330 Avico 21SQN Patch">
-				<h1>A330 Avico 21SQN</h1>
-				<p>Belgian Air Force</p>
-			</div>
-			<div class="patch">
-				<img src="A400 Atlas.webp" alt="A400 Atlas Patch">
-				<h1>A400 Atlas</h1>
-				<p>For the pilots of the A400 Atlas</p>
-			</div>
-			<div class="patch">
-				<img src="A400M 15th wing.webp" alt="A400M 15th wing Patch">
-				<h1>A400M 15th wing</h1>
-				<p>For the pilots of the A400M from the 15th wing</p>
-			</div>
-			<div class="patch">
-				<img src="A400 Atlas 20SQN.png" alt="A400M Atlas 20SQN Patch">
-				<h1>A400M Atlas 20SQN</h1>
-				<p>for the pilots of the A400M Atlas from the 20SQN</p>
-			</div>
-			<div class="patch">
-				<img src="A400 Atlas 20SQN lux.png" alt="A400M Atlas 20SQN lux Patch">
-				<h1>A400M Atlas 20SQN Luxemburg</h1>
-				<p>For the pilots of the only A400M Atlas from Luxemburg</p>
-			</div>
+		<div class="patch-grid" id="airforce-grid">
 		</div>
 	</section>
 	<section id="specialoperations">
 		<h2>Special Operations Patches</h2>
-		<div class="patch-grid">
-			<div class="patch">
-				<img src="the Special Forces Group.webp" alt="Special Forces Group Patch">
-				<h1>Special Forces Group</h1>
-				<p>Special Forces Group</p>
-			</div>
-			<div class="patch">
-				<img src="parachutists brevet.webp" alt="parachutists brevet Patch">
-				<h1>parachutists brevet</h1>
-				<p>parachutists brevet</p>
-			</div>
-			<div class="patch">
-				<img src="Commando Brevet.webp" alt="Commando Brevet Patch">
-				<h1>Commando Brevet</h1>
-				<p>Commando Brevet</p>
-			</div>
-			<div class="patch">
-				<img src="instructor in marche les dames.webp" alt="instructor in marche les dames Patch">
-				<h1>instructor in marche les dames</h1>
-				<p>Instructor in marche les dames</p>
-			</div>
-			<div class="patch">
-				<img src="instructor in marche les dames-dark.webp" alt="instructor in marche les dames-dark Patch">
-				<h1>instructor in marche les dames dark version</h1>
-				<p>Alternative dark version of the instructor in marche les dames patch</p>
-			</div>
-			<div class="patch">
-				<img src="1Bn PARA DIEST.webp" alt="1Bn PARA DIEST Patch">
-				<h1>1Bn PARA DIEST</h1>
-				<p>1Bn PARA DIEST</p>
-			</div>
-			<div class="patch">
-				<img src="3rd Battalion Paracommandos.webp" alt="3rd Battalion Paracommandos Patch">
-				<h1>3rd Battalion Paracommandos</h1>
-				<p>Special Operations Regiment</p>
-			</div>
-			<div class="patch">
-				<img src="Frogman RegtPARA-CDO.webp" alt="Frogman RegtPARA-CDO Patch">
-				<h1>Frogman RegtPARA-CDO</h1>
-				<p>Frogman Regiment belonging to the PARA-Commandos</p>
-			</div>
-			<div class="patch">
-				<img src="21st Special Recon.webp" alt="21st Special Recon Patch">
-				<h1>21st Special Recon</h1>
-				<p>Commando</p>
-			</div>
-			<div class="patch">
-				<img src="Frogman.webp" alt="Frogman Patch">
-				<h1>Frogman</h1>
-				<p>Combat divers belonging to the 21st Special Reconnaissance Detachment (BELSOF)</p>
-			</div>
-			<div class="patch">
-				<img src="Frogman-old.webp" alt="Frogman-old Patch">
-				<h1>Frogman Old</h1>
-				<p>Frogman Old</p>
-			</div>
+		<div class="patch-grid" id="specialoperations-grid">
 		</div>
 	</section>
 	<footer>
@@ -417,37 +175,6 @@
 	</div>
 
 	<script>
-		// Get the modal
-		var modal = document.getElementById("imageModal");
-
-		// Get the image and insert it inside the modal
-		var modalImg = document.getElementById("modalImage");
-		var images = document.querySelectorAll(".patch img");
-
-		// Get the <span> element that closes the modal
-		var span = document.getElementsByClassName("close")[0];
-
-		// When the user clicks on an image, open the modal
-		images.forEach(function(img) {
-			img.onclick = function(){
-				modal.style.display = "flex";
-				modalImg.src = this.src;
-				modalImg.alt = this.alt;
-			}
-		});
-
-		// When the user clicks on <span> (x), close the modal
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-
-		// When the user clicks anywhere outside of the modal content, close it
-		modal.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-
 		// Smooth scrolling for navigation links
 		document.querySelectorAll('nav a[href^="#"]').forEach(function(navLink) {
 			navLink.addEventListener('click', function(event) {
@@ -460,6 +187,69 @@
 				}
 			});
 		});
+
+		// Search functionality
+		document.getElementById('searchInput').addEventListener('input', function() {
+			var searchTerm = this.value.toLowerCase();
+			var patches = document.querySelectorAll('.patch');
+			patches.forEach(function(patch) {
+				var title = patch.querySelector('h1').textContent.toLowerCase();
+				var description = patch.querySelector('p').textContent.toLowerCase();
+				var altText = patch.querySelector('img').alt.toLowerCase();
+				if (title.includes(searchTerm) || description.includes(searchTerm) || altText.includes(searchTerm)) {
+					patch.style.display = 'block';
+				} else {
+					patch.style.display = 'none';
+				}
+			});
+		});
+
+		// Load patches from JSON
+		fetch('patches.json')
+			.then(response => response.json())
+			.then(data => {
+				Object.keys(data).forEach(category => {
+					const grid = document.getElementById(category + '-grid');
+					data[category].forEach(patch => {
+						const patchDiv = document.createElement('div');
+						patchDiv.className = 'patch';
+						patchDiv.innerHTML = `
+							<img src="${patch.image}" alt="${patch.alt}">
+							<h1>${patch.title}</h1>
+							<p>${patch.description}</p>
+						`;
+						grid.appendChild(patchDiv);
+					});
+				});
+				// Re-initialize modal and search after loading
+				initModal();
+			})
+			.catch(error => console.error('Error loading patches:', error));
+
+		function initModal() {
+			var modal = document.getElementById("imageModal");
+			var modalImg = document.getElementById("modalImage");
+			var images = document.querySelectorAll(".patch img");
+			var span = document.getElementsByClassName("close")[0];
+
+			images.forEach(function(img) {
+				img.onclick = function(){
+					modal.style.display = "flex";
+					modalImg.src = this.src;
+					modalImg.alt = this.alt;
+				}
+			});
+
+			span.onclick = function() {
+				modal.style.display = "none";
+			}
+
+			modal.onclick = function(event) {
+				if (event.target == modal) {
+					modal.style.display = "none";
+				}
+			}
+		}
 	</script>
 </body>
 </html>

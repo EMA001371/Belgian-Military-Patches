@@ -1,0 +1,388 @@
+{
+  "army": [
+    {
+      "image": "KSOO-ERSO.webp",
+      "alt": "KSOO - ERSO Patch",
+      "title": "KSOO - ERSO",
+      "description": "Discimus ad seriendum"
+    },
+	{
+      "image": "Ground Forces.webp",
+      "alt": "Ground Forces Patch",
+      "title": "Ground Forces",
+      "description": "Ground Forces"
+    },
+    {
+      "image": "carabiniers grenadiers.webp",
+      "alt": "carabiniers grenadiers Patch",
+      "title": "carabiniers grenadiers",
+      "description": "carabiniers grenadiers"
+    },
+    {
+      "image": "Dovo Sedee dark.webp",
+      "alt": "Dovo Sedee dark patch",
+      "title": "Dovo Sedee dark version",
+      "description": "A dark variant of the Dovo Sedee patch"
+    },
+    {
+      "image": "Emergency Medical Technician.webp",
+      "alt": "Emergency Medical Technician patch",
+      "title": "Emergency Medical Technician",
+      "description": "Belgian Defense"
+    },
+	{
+      "image": "1st infantry division.webp",
+      "alt": "1st infantry division patch",
+      "title": "1st infantry division",
+      "description": "1st infantry division"
+    },
+    {
+      "image": "5de linie.webp",
+      "alt": "5de linie patch",
+      "title": "5de linie",
+      "description": "Bvr/5 Li"
+    },
+    {
+      "image": "4th ENGR BN 67.png",
+      "alt": "4th ENGR BN 67 Patch",
+      "title": "4th ENGR BN 67",
+      "description": "Combat ENGR"
+    },
+    {
+      "image": "11th ENGR BN 1.webp",
+      "alt": "11th ENGR BN 1 patch",
+      "title": "11th ENGR BN 1",
+      "description": "Via VI"
+    },
+    {
+      "image": "11th ENGR BN 6.webp",
+      "alt": "11th ENGR BN 6 patch",
+      "title": "11th ENGR BN 6",
+      "description": "Age quod agis"
+    },
+    {
+      "image": "11th ENGR BN 11.webp",
+      "alt": "11th ENGR BN 11 patch",
+      "title": "11th ENGR BN 11",
+      "description": "Per ignem,aquam at aerem"
+    },
+    {
+      "image": "11th ENGR BN 68.webp",
+      "alt": "11th ENGR BN 68 patch",
+      "title": "11th ENGR BN 68",
+      "description": "Steeds paraat"
+    },
+    {
+      "image": "MP.webp",
+      "alt": "MP patch",
+      "title": "Military police",
+      "description": "MP"
+    },
+    {
+      "image": "MPG.png",
+      "alt": "MPG Patch",
+      "title": "Military Police Group",
+      "description": "MPG"
+    },
+    {
+      "image": "MPG-dark.png",
+      "alt": "MPG-dark Patch",
+      "title": "Military Police Group dark version",
+      "description": "MPG alternative patch in dark colors"
+    }
+  ],
+  "navy": [
+    {
+      "image": "Marine Accademy.webp",
+      "alt": "Marine Accademy Patch",
+      "title": "Marine Accademy",
+      "description": "Directly from Flockydepoes's personal collection, earned from doing \"some hard stuff like swimming and diving with clothes on and gun on back\""
+    },
+    {
+      "image": "Military police naval component.webp",
+      "alt": "Military police naval component Patch",
+      "title": "Military police naval component",
+      "description": "Specialized unit for naval law enforcement"
+    },
+    {
+      "image": "MWU-VSW team.webp",
+      "alt": "MWU-VSW team Patch",
+      "title": "MWU-VSW team",
+      "description": "Belgian Navy"
+    },
+	{
+      "image": "Heli Navy.webp",
+      "alt": "Heli Navy Patch",
+      "title": "Heli Navy",
+      "description": "Belgian Heli Navy"
+    },
+    {
+      "image": "M921 ship patch.webp",
+      "alt": "M921 ship patch",
+      "title": "BNS Lobelia M921",
+      "description": "Compos Sui"
+    },
+    {
+      "image": "louise_marie_patch.webp",
+      "alt": "Louise-Marie ship patch",
+      "title": "F931 Louise-Marie",
+      "description": "Ad Augusta Per Angusta"
+    },
+    {
+      "image": "louis_marie_2.webp",
+      "alt": "louise-Marie 2 ship patch",
+      "title": "F931 louise Marie",
+      "description": "Marine"
+    }
+  ],
+  "airforce": [
+    {
+      "image": "Belgian Air Force.webp",
+      "alt": "Belgian Air Force Patch",
+      "title": "Belgian Air Force",
+      "description": "Belgian Air Force"
+    },
+	{
+      "image": "Red Flag-Block TRG-Air Warrior.webp",
+      "alt": "Red Flag-Block TRG-Air Warrior Patch",
+      "title": "Red Flag-Block TRG-Air Warrior",
+      "description": "Belgian Air Force"
+    },
+	{
+      "image": "1k HRS Alpha Jet.webp",
+      "alt": "1k HRS Alpha Jet Patch",
+      "title": "1000 Flight Hours",
+      "description": "Alpha Jet"
+    },
+	{
+      "image": "3k HRS F-16 Fighting falcon.webp",
+      "alt": "3k HRS F-16 Fighting falcon Patch",
+      "title": "3000 Flight Hours",
+      "description": "F-16 Fighting falcon"
+    },
+	{
+      "image": "F-16 mid-life update.webp",
+      "alt": "F-16 mid-life update Patch",
+      "title": "F-16 mid-life update",
+      "description": "Check six"
+    },
+    {
+      "image": "Air Force Police.jpg",
+      "alt": "Air Force Police Patch",
+      "title": "Air Force Police",
+      "description": "Belgian Air Force Police"
+    },
+	{
+      "image": "Seaking SAR.webp",
+      "alt": "Seaking SAR Patch",
+      "title": "Seaking Search and Rescue",
+      "description": "S.A.R."
+    },
+    {
+      "image": "Operational Conversion Unit.webp",
+      "alt": "Operational Conversion Unit Patch",
+      "title": "Operational Conversion Unit",
+      "description": "Closed since may 2026"
+    },
+    {
+      "image": "airforce base guards.webp",
+      "alt": "Air Force Base Guards Patch",
+      "title": "Air Force Base Guards",
+      "description": "10 W Tac - Force Protection"
+    },
+    {
+      "image": "10th tactical wing - Fire Department.webp",
+      "alt": "10th tactical wing - Fire Department Patch",
+      "title": "10th tactical wing - Fire Department",
+      "description": "10 W tac kleine brogel - Fire department - 2023 Belgian airforce days"
+    },
+    {
+      "image": "10th tactical wing - Medical Care.webp",
+      "alt": "10th tactical wing - Medical Care Patch",
+      "title": "10th tactical wing - Medical Care",
+      "description": "We'll stitch you up!"
+    },
+    {
+      "image": "15th Transport Wing - Squadron.webp",
+      "alt": "15th Transport Wing - Squadron Patch",
+      "title": "15th Transport Wing - Squadron",
+      "description": "Maint SQN - Tenacity"
+    },
+	{
+      "image": "A400M 15th wing.webp",
+      "alt": "A400M 15th wing Patch",
+      "title": "A400M 15th wing",
+      "description": "For the pilots of the A400M from the 15th wing"
+    },
+    {
+      "image": "20th Squadron.webp",
+      "alt": "20th Squadron Patch",
+      "title": "20th Squadron",
+      "description": "20 SQN - Tenacity"
+    },
+	{
+      "image": "C130 Hercules 20 SQN.webp",
+      "alt": "C130 Hercules 20 SQN Patch",
+      "title": "C130 Hercules",
+      "description": "20th Squadron"
+    },
+	{
+      "image": "A400 Atlas 20SQN.png",
+      "alt": "A400M Atlas 20SQN Patch",
+      "title": "A400M Atlas 20SQN",
+      "description": "for the pilots of the A400M Atlas from the 20SQN"
+    },
+	{
+      "image": "A400 Atlas 20SQN lux.png",
+      "alt": "A400M Atlas 20SQN lux Patch",
+      "title": "A400M Atlas 20SQN Luxemburg",
+      "description": "For the pilots of the only A400M Atlas from Luxemburg"
+    },
+	{
+      "image": "Alouette II.webp",
+      "alt": "Alouette II Patch",
+      "title": "Alouette II",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "Mirage V.webp",
+      "alt": "Mirage V Patch",
+      "title": "Mirage V",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "Spitfire XIV.webp",
+      "alt": "Spitfire XIV Patch",
+      "title": "Spitfire XIV",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "F-16 Fighting Falcon.webp",
+      "alt": "F-16 Fighting Falcon Patch",
+      "title": "F-16 Fighting Falcon",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "Falcon DA-20.webp",
+      "alt": "Falcon DA-20 Patch",
+      "title": "Falcon DA-20",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "31 Tiger Squadron.webp",
+      "alt": "31 Tiger Squadron Patch",
+      "title": "31 Tiger Squadron",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "F-35A Lighting II.webp",
+      "alt": "F-35A Lighting II Patch",
+      "title": "F-35A Lighting II",
+      "description": "Belgian Air Force"
+    },
+	{
+      "image": "Sikorsky S-58.webp",
+      "alt": "Sikorsky S-58 Patch",
+      "title": "Sikorsky S-58",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "CF-100 Canuck Mk5.webp",
+      "alt": "CF-100 Canuck Mk5 Patch",
+      "title": "CF-100 Canuck Mk5",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "F-104G Starfghter.webp",
+      "alt": "F-104G Starfghter Patch",
+      "title": "F-104G Starfghter",
+      "description": "Belgian Air Force"
+    },
+	{
+      "image": "Embraer CRJ-135 CRJ. 145.webp",
+      "alt": "Embraer CRJ-135 CRJ. 145 Patch",
+      "title": "Embraer CRJ-135 CRJ. 145",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "A330 Avico 21SQN.png",
+      "alt": "A330 Avico 21SQN Patch",
+      "title": "A330 Avico 21SQN",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "A400 Atlas.webp",
+      "alt": "A400 Atlas Patch",
+      "title": "A400 Atlas",
+      "description": "For the pilots of the A400 Atlas"
+    }
+  ],
+  "specialoperations": [
+    {
+      "image": "the Special Forces Group.webp",
+      "alt": "Special Forces Group Patch",
+      "title": "Special Forces Group",
+      "description": "Special Forces Group"
+    },
+    {
+      "image": "parachutists brevet.webp",
+      "alt": "parachutists brevet Patch",
+      "title": "parachutists brevet",
+      "description": "parachutists brevet"
+    },
+    {
+      "image": "Commando Brevet.webp",
+      "alt": "Commando Brevet Patch",
+      "title": "Commando Brevet",
+      "description": "Commando Brevet"
+    },
+    {
+      "image": "instructor in marche les dames.webp",
+      "alt": "instructor in marche les dames Patch",
+      "title": "instructor in marche les dames",
+      "description": "Instructor in marche les dames"
+    },
+    {
+      "image": "instructor in marche les dames-dark.webp",
+      "alt": "instructor in marche les dames-dark Patch",
+      "title": "instructor in marche les dames dark version",
+      "description": "Alternative dark version of the instructor in marche les dames patch"
+    },
+    {
+      "image": "1Bn PARA DIEST.webp",
+      "alt": "1Bn PARA DIEST Patch",
+      "title": "1Bn PARA DIEST",
+      "description": "1Bn PARA DIEST"
+    },
+    {
+      "image": "3rd Battalion Paracommandos.webp",
+      "alt": "3rd Battalion Paracommandos Patch",
+      "title": "3rd Battalion Paracommandos",
+      "description": "Special Operations Regiment"
+    },
+    {
+      "image": "Frogman RegtPARA-CDO.webp",
+      "alt": "Frogman RegtPARA-CDO Patch",
+      "title": "Frogman RegtPARA-CDO",
+      "description": "Frogman Regiment belonging to the PARA-Commandos"
+    },
+    {
+      "image": "21st Special Recon.webp",
+      "alt": "21st Special Recon Patch",
+      "title": "21st Special Recon",
+      "description": "Commando"
+    },
+    {
+      "image": "Frogman.webp",
+      "alt": "Frogman Patch",
+      "title": "Frogman",
+      "description": "Combat divers belonging to the 21st Special Reconnaissance Detachment (BELSOF)"
+    },
+    {
+      "image": "Frogman-old.webp",
+      "alt": "Frogman-old Patch",
+      "title": "Frogman Old",
+      "description": "Frogman Old"
+    }
+  ]
+}
