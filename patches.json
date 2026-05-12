@@ -6,11 +6,17 @@
       "title": "KSOO - ERSO",
       "description": "Discimus ad seriendum"
     },
-	{
+  	{
       "image": "Ground Forces.webp",
       "alt": "Ground Forces Patch",
       "title": "Ground Forces",
       "description": "Ground Forces"
+    },
+    {
+      "image": "Belgian Army Parachute Team.webp",
+      "alt": "Belgian Army Parachute Team Patch",
+      "title": "Belgian Army Parachute Team",
+      "description": "Belgian Army"
     },
     {
       "image": "carabiniers grenadiers.webp",
@@ -19,10 +25,10 @@
       "description": "carabiniers grenadiers"
     },
     {
-      "image": "Dovo Sedee dark.webp",
-      "alt": "Dovo Sedee dark patch",
-      "title": "Dovo Sedee dark version",
-      "description": "A dark variant of the Dovo Sedee patch"
+      "image":"Dovo Sedee dark.webp",
+      "alt": "Dovo Sedee patch",
+      "title": "Dovo Sedee",
+      "description": "Defensie - Defense"
     },
     {
       "image": "Emergency Medical Technician.webp",
@@ -30,7 +36,7 @@
       "title": "Emergency Medical Technician",
       "description": "Belgian Defense"
     },
-	{
+	  {
       "image": "1st infantry division.webp",
       "alt": "1st infantry division patch",
       "title": "1st infantry division",
@@ -79,16 +85,10 @@
       "description": "MP"
     },
     {
-      "image": "MPG.png",
+      "images": ["MPG.png", "MPG-dark.png"],
       "alt": "MPG Patch",
       "title": "Military Police Group",
-      "description": "MPG"
-    },
-    {
-      "image": "MPG-dark.png",
-      "alt": "MPG-dark Patch",
-      "title": "Military Police Group dark version",
-      "description": "MPG alternative patch in dark colors"
+      "description": "MPG - Available in standard and dark versions"
     }
   ],
   "navy": [
@@ -123,16 +123,10 @@
       "description": "Compos Sui"
     },
     {
-      "image": "louise_marie_patch.webp",
+      "images": ["louise_marie_patch.webp","louis_marie_2.webp"],
       "alt": "Louise-Marie ship patch",
       "title": "F931 Louise-Marie",
       "description": "Ad Augusta Per Angusta"
-    },
-    {
-      "image": "louis_marie_2.webp",
-      "alt": "louise-Marie 2 ship patch",
-      "title": "F931 louise Marie",
-      "description": "Marine"
     }
   ],
   "airforce": [
@@ -185,10 +179,28 @@
       "description": "Closed since may 2026"
     },
     {
-      "image": "airforce base guards.webp",
-      "alt": "Air Force Base Guards Patch",
-      "title": "Air Force Base Guards",
-      "description": "10 W Tac - Force Protection"
+      "image": "Force protection 1w.webp",
+      "alt": "Air Force Base Guards 1w Patch",
+      "title": "Air Force Base Guards 1w",
+      "description": "1 Wing - Force Protection"
+    },
+    {
+      "image": "Force protection 2w tac.webp",
+      "alt": "Air Force Base Guards 2w tac Patch",
+      "title": "Air Force Base Guards 2w tac",
+      "description": "2 Wing Tac - Force Protection"
+    },
+    {
+      "image": "Force Protection 10w tac.webp",
+      "alt": "Air Force Base Guards 10w tac Patch",
+      "title": "Air Force Base Guards 10w tac",
+      "description": "10 Wing Tac - Force Protection"
+    },
+    {
+      "images": ["1st Squadron, 2nd Tactical Wing.webp","1st Squadron, 2nd Tactical Wing-Desert.webp"],
+      "alt": "1st Squadron, 2nd Tactical Wing Patch",
+      "title": "1st Squadron, 2nd Tactical Wing",
+      "description": "1st Squadron, 2nd Tactical Wing - Available in standard and Desert versions"
     },
     {
       "image": "10th tactical wing - Fire Department.webp",
@@ -203,9 +215,9 @@
       "description": "We'll stitch you up!"
     },
     {
-      "image": "15th Transport Wing - Squadron.webp",
-      "alt": "15th Transport Wing - Squadron Patch",
-      "title": "15th Transport Wing - Squadron",
+      "image": "15th Transport Wing.webp",
+      "alt": "15th Transport Wing Patch",
+      "title": "15th Transport Wing",
       "description": "Maint SQN - Tenacity"
     },
 	{
@@ -269,7 +281,7 @@
       "description": "Belgian Air Force"
     },
     {
-      "image": "31 Tiger Squadron.webp",
+      "images": ["31 Tiger Squadron.webp","31 Tiger Meet NTM 2016.webp","31 Tiger Squadron Fighter Bombers.webp","31 ready for the future.webp"],
       "alt": "31 Tiger Squadron Patch",
       "title": "31 Tiger Squadron",
       "description": "Belgian Air Force"
@@ -337,16 +349,22 @@
       "description": "Commando Brevet"
     },
     {
-      "image": "instructor in marche les dames.webp",
+      "images": ["instructor in marche les dames.webp","instructor in marche les dames-dark.webp"],
       "alt": "instructor in marche les dames Patch",
       "title": "instructor in marche les dames",
-      "description": "Instructor in marche les dames"
+      "description": "Instructor in marche les dames - Available in standard and dark versions"
     },
     {
-      "image": "instructor in marche les dames-dark.webp",
-      "alt": "instructor in marche les dames-dark Patch",
-      "title": "instructor in marche les dames dark version",
-      "description": "Alternative dark version of the instructor in marche les dames patch"
+      "image": "Joint Para Commando.webp",
+      "alt": "Joint Para Commando Patch",
+      "title": "Para Commando",
+      "description": "Joint Para Commando"
+    },
+    {
+      "image": "RGT paracommando.webp",
+      "alt": "RGT paracommando Patch",
+      "title": "RGT paracommando",
+      "description": "Audaces Fortuna Juvat"
     },
     {
       "image": "1Bn PARA DIEST.webp",
@@ -355,10 +373,34 @@
       "description": "1Bn PARA DIEST"
     },
     {
-      "image": "3rd Battalion Paracommandos.webp",
+      "image": "1 Paracommando Battalion 21 CIE.webp",
+      "alt": "1 Paracommando Battalion 21 CIE Patch",
+      "title": "1 Paracommando Battalion 21 CIE",
+      "description": "1 Paracommando Battalion 21 CIE"
+    },
+    {
+      "image": "2bn commando 12 Company flawinne.webp",
+      "alt": "2bn commando 12 Company flawinne Patch",
+      "title": "2bn commando 12 Company flawinne",
+      "description": "Commando Parachutiste"
+    },
+    {
+      "images": ["3rd Battalion Paracommandos.webp","3rd para.webp"],
       "alt": "3rd Battalion Paracommandos Patch",
       "title": "3rd Battalion Paracommandos",
       "description": "Special Operations Regiment"
+    },
+    {
+      "image": "3rd Para Battalion 22 Company.webp",
+      "alt": "3rd Para Battalion 22 Company Patch",
+      "title": "3rd Paracommando Battalion 22 Company",
+      "description": "Tielen"
+    },
+    {
+      "image": "3 para.webp",
+      "alt": "3 para Patch",
+      "title": "3rd Paracommando",
+      "description": "Unidentified patch from the 3rd Paracommando Battalion"
     },
     {
       "image": "Frogman RegtPARA-CDO.webp",
