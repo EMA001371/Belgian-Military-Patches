@@ -1,11 +1,5 @@
 {
   "army": [
-    {
-      "image": "KSOO-ERSO.webp",
-      "alt": "KSOO - ERSO Patch",
-      "title": "KSOO - ERSO",
-      "description": "Discimus ad seriendum"
-    },
   	{
       "image": "Ground Forces.webp",
       "alt": "Ground Forces Patch",
@@ -17,6 +11,12 @@
       "alt": "Belgian Army Parachute Team Patch",
       "title": "Belgian Army Parachute Team",
       "description": "Belgian Army"
+    },
+    {
+      "image": "KSOO-ERSO.webp",
+      "alt": "KSOO - ERSO Patch",
+      "title": "KSOO - ERSO",
+      "description": "Discimus ad seriendum"
     },
     {
       "image": "carabiniers grenadiers.webp",
@@ -36,7 +36,19 @@
       "title": "Emergency Medical Technician",
       "description": "Belgian Defense"
     },
+    {
+      "image": "Fmnc CIS Admin.webp",
+      "alt": "Fmnc CIS Admin patch",
+      "title": "Fmnc CIS Admin",
+      "description": "Semper Excelsius"
+    },
 	  {
+      "image": "1st Bde Headquarters.webp",
+      "alt": "1st Bde Headquarters patch",
+      "title": "1st Bde Headquarters",
+      "description": "1st Bde Headquarters"
+    },
+    {
       "image": "1st infantry division.webp",
       "alt": "1st infantry division patch",
       "title": "1st infantry division",
@@ -47,6 +59,12 @@
       "alt": "5de linie patch",
       "title": "5de linie",
       "description": "Bvr/5 Li"
+    },
+    {
+      "image": "4eme Bataillon De Genie.webp",
+      "alt": "4eme Bataillon De Genie Patch",
+      "title": "4eme Bataillon De Genie",
+      "description": "Surpasse-toi"
     },
     {
       "image": "4th ENGR BN 67.png",
@@ -179,22 +197,10 @@
       "description": "Closed since may 2026"
     },
     {
-      "image": "Force protection 1w.webp",
+      "images": ["Force protection 1w.webp","Force protection 2w tac.webp","Force Protection 10w tac.webp"],
       "alt": "Air Force Base Guards 1w Patch",
-      "title": "Air Force Base Guards 1w",
-      "description": "1 Wing - Force Protection"
-    },
-    {
-      "image": "Force protection 2w tac.webp",
-      "alt": "Air Force Base Guards 2w tac Patch",
-      "title": "Air Force Base Guards 2w tac",
-      "description": "2 Wing Tac - Force Protection"
-    },
-    {
-      "image": "Force Protection 10w tac.webp",
-      "alt": "Air Force Base Guards 10w tac Patch",
-      "title": "Air Force Base Guards 10w tac",
-      "description": "10 Wing Tac - Force Protection"
+      "title": "Air Force Base Guards",
+      "description": "From the 1st, 2nd and 10th Wing - Force Protection"
     },
     {
       "images": ["1st Squadron, 2nd Tactical Wing.webp","1st Squadron, 2nd Tactical Wing-Desert.webp"],
@@ -409,16 +415,22 @@
       "description": "Frogman Regiment belonging to the PARA-Commandos"
     },
     {
+      "image": "16 Special Operations Regiment B-coy.webp",
+      "alt": "16 Special Operations Regiment B-coy Patch",
+      "title": "16 Special Operations Regiment",
+      "description": "B-coy"
+    },
+    {
       "image": "21st Special Recon.webp",
       "alt": "21st Special Recon Patch",
       "title": "21st Special Recon",
       "description": "Commando"
     },
     {
-      "image": "Frogman.webp",
+      "images": ["Frogman.webp","Frogman-dark.webp"],
       "alt": "Frogman Patch",
       "title": "Frogman",
-      "description": "Combat divers belonging to the 21st Special Reconnaissance Detachment (BELSOF)"
+      "description": "Combat divers belonging to the 21st Special Reconnaissance Detachment (BELSOF) - Avabile in standard and dark versions"
     },
     {
       "image": "Frogman-old.webp",
