@@ -128,10 +128,16 @@
       "title": "MWU-VSW team",
       "description": "Belgian Navy"
     },
-	{
+    {
       "image": "Heli Navy.webp",
       "alt": "Heli Navy Patch",
       "title": "Heli Navy",
+      "description": "Belgian Heli Navy"
+    },
+    {
+      "image": "Navy Heliflight.webp",
+      "alt": "Navy Heliflight Patch",
+      "title": "Navy Heliflight",
       "description": "Belgian Heli Navy"
     },
     {
@@ -154,25 +160,31 @@
       "title": "Belgian Air Force",
       "description": "Belgian Air Force"
     },
-	{
+    {
       "image": "Red Flag-Block TRG-Air Warrior.webp",
       "alt": "Red Flag-Block TRG-Air Warrior Patch",
       "title": "Red Flag-Block TRG-Air Warrior",
       "description": "Belgian Air Force"
     },
-	{
+	  {
       "image": "1k HRS Alpha Jet.webp",
       "alt": "1k HRS Alpha Jet Patch",
       "title": "1000 Flight Hours",
       "description": "Alpha Jet"
     },
-	{
+    {
       "image": "3k HRS F-16 Fighting falcon.webp",
       "alt": "3k HRS F-16 Fighting falcon Patch",
       "title": "3000 Flight Hours",
       "description": "F-16 Fighting falcon"
     },
-	{
+    {
+      "image": "40y Falcon 20.webp",
+      "alt": "40y Falcon 20 Patch",
+      "title": "40 Year Falcon 20",
+      "description": "Belgian Air Force Police"
+    },
+  	{
       "image": "F-16 mid-life update.webp",
       "alt": "F-16 mid-life update Patch",
       "title": "F-16 mid-life update",
@@ -184,7 +196,7 @@
       "title": "Air Force Police",
       "description": "Belgian Air Force Police"
     },
-	{
+	  {
       "image": "Seaking SAR.webp",
       "alt": "Seaking SAR Patch",
       "title": "Seaking Search and Rescue",
@@ -221,51 +233,75 @@
       "description": "We'll stitch you up!"
     },
     {
-      "image": "15th Transport Wing.webp",
-      "alt": "15th Transport Wing Patch",
-      "title": "15th Transport Wing",
-      "description": "Maint SQN - Tenacity"
-    },
-	{
-      "image": "A400M 15th wing.webp",
-      "alt": "A400M 15th wing Patch",
-      "title": "A400M 15th wing",
-      "description": "For the pilots of the A400M from the 15th wing"
+      "image": "17th SQN MRH.webp",
+      "alt": "17th SQN MRH Patch",
+      "title": "17th SQN MRH",
+      "description": "Multirole Helicopter"
     },
     {
-      "image": "20th Squadron.webp",
-      "alt": "20th Squadron Patch",
-      "title": "20th Squadron",
-      "description": "20 SQN - Tenacity"
+      "image": "15th Wing.png",
+      "alt": "15th Wing Patch",
+      "title": "15th Wing",
+      "description": "Belgian Air Force"
     },
-	{
-      "image": "C130 Hercules 20 SQN.webp",
-      "alt": "C130 Hercules 20 SQN Patch",
-      "title": "C130 Hercules",
-      "description": "20th Squadron"
+    {
+      "image": "20th SQN.webp",
+      "alt": "20th SQN Patch",
+      "title": "20 Squadron Tactical Airlift",
+      "description": "one of the largest within the Belgian Air Force"
     },
-	{
-      "image": "A400 Atlas 20SQN.png",
-      "alt": "A400M Atlas 20SQN Patch",
-      "title": "A400M Atlas 20SQN",
-      "description": "for the pilots of the A400M Atlas from the 20SQN"
+    {
+      "image": "21th SQN.png",
+      "alt": "21th SQN Patch",
+      "title": "21 Squadron Strategic Airlift",
+      "description": "specialises in liaison flights and is equipped with 2 Dassault Falcon 7X"
     },
-	{
-      "image": "A400 Atlas 20SQN lux.png",
-      "alt": "A400M Atlas 20SQN lux Patch",
-      "title": "A400M Atlas 20SQN Luxemburg",
-      "description": "For the pilots of the only A400M Atlas from Luxemburg"
+    {
+      "image": "TCU SQN.webp",
+      "alt": "TCU SQN Patch",
+      "title": "Transport Conversion Unit",
+      "description": "experienced crew members from both operational squadrons"
     },
-	{
+    {
+      "image": "ops Mgt SQN.png",
+      "alt": "ops Mgt Patch",
+      "title": "Operations Management Squadron",
+      "description": "Providing monitoring and assistance to missions"
+    },
+    {
+      "image": "A400M Maint SQN.webp",
+      "alt": "A400M Maint SQN Patch",
+      "title": "A400M Maintenance Squadron",
+      "description": "maintenance of the A400M fleet"
+    },
+    {
+      "image": "Percival Pembroke 21SQN.webp",
+      "alt": "Percival Pembroke 21SQN Patch",
+      "title": "Percival Pembroke 21SQN",
+      "description": "Belgian Air Force"
+    },
+    {
       "image": "Alouette II.webp",
       "alt": "Alouette II Patch",
       "title": "Alouette II",
       "description": "Belgian Air Force"
     },
     {
+      "image": "Swearingen Merlin IIIA 21SQN.webp",
+      "alt": "Swearingen Merlin IIIA Patch",
+      "title": "Swearingen Merlin IIIA",
+      "description": "Belgian Air Force"
+    },
+    {
       "image": "Mirage V.webp",
       "alt": "Mirage V Patch",
       "title": "Mirage V",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "Douglas DC-6A 21SQN.webp",
+      "alt": "Douglas DC-6A 21SQN Patch",
+      "title": "Douglas DC-6A 21SQN",
       "description": "Belgian Air Force"
     },
     {
@@ -298,7 +334,13 @@
       "title": "F-35A Lighting II",
       "description": "Belgian Air Force"
     },
-	{
+    {
+      "image": "C47 DC3 Dakota 21SQN.webp",
+      "alt": "C47 DC3 Dakota 21SQN Patch",
+      "title": "C47 DC3 Dakota 21SQN",
+      "description": "Belgian Air Force"
+    },
+    {
       "image": "Sikorsky S-58.webp",
       "alt": "Sikorsky S-58 Patch",
       "title": "Sikorsky S-58",
@@ -316,7 +358,25 @@
       "title": "F-104G Starfghter",
       "description": "Belgian Air Force"
     },
-	{
+    {
+      "image": "C119 Flying Boxcar 20-40SQN.webp",
+      "alt": "C119 Flying Boxcar 20-40SQN Patch",
+      "title": "C119 Flying Boxcar 20-40SQN",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "A130 21SQN.webp",
+      "alt": "A130 21SQN Patch",
+      "title": "A130 21SQN",
+      "description": "Belgian Air Force"
+    },
+    {
+      "images": ["C130 Hercules 20FL tac.webp","C130 Hercules 20 SQN-dark.webp"],
+      "alt": "C130 Hercules 20FL tac Patch",
+      "title": "C130 Hercules 20FL tac",
+      "description": "Belgian Air Force - Available in standard and dark versions"
+    },
+    {
       "image": "Embraer CRJ-135 CRJ. 145.webp",
       "alt": "Embraer CRJ-135 CRJ. 145 Patch",
       "title": "Embraer CRJ-135 CRJ. 145",
@@ -329,10 +389,22 @@
       "description": "Belgian Air Force"
     },
     {
-      "image": "A400 Atlas.webp",
-      "alt": "A400 Atlas Patch",
-      "title": "A400 Atlas",
-      "description": "For the pilots of the A400 Atlas"
+      "images": ["A400M Atlas.webp","A400M 15th wing.webp","A400M Atlas 20SQN.png","A400M Atlas 20SQN lux.png"],
+      "alt": "A400M Atlas Patch",
+      "title": "A400M Atlas",
+      "description": "For the pilots of the A400M Atlas - alternative patches for the 15th and 20th SQN and the only A400M from Luxemburg"
+    },
+    {
+      "image": "Boeing 727 21SQN.webp",
+      "alt": "Boeing 727 21SQN Patch",
+      "title": "Boeing 727 21SQN",
+      "description": "Belgian Air Force"
+    },
+    {
+      "image": "HS748 Hawker Siddeley 21SQN.webp",
+      "alt": "HS748 Hawker Siddeley 21SQN Patch",
+      "title": "HS748 Hawker Siddeley 21SQN",
+      "description": "Belgian Air Force"
     }
   ],
   "specialoperations": [
